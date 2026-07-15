@@ -20,13 +20,7 @@ The Ultimate UI/UX Intelligence System
 
 ## What This Skill Is
 
-YUIUX is the most comprehensive UI/UX skill ever assembled for AI-powered development tools. It merges:
-
-1. **UX Error Prevention** — Apple-HIG-caliber error catalog, pre-ship gates, every anti-pattern mapped to a fix
-2. **AI UX Skill Framework** — Detection methods, prevention strategies, automated remediation, CI/CD integration
-3. **UI/UX Pro-Max System** — Brand identity, design tokens, component libraries, logo systems, CIP, social media, banners
-4. **Extended Design Intelligence** — Color psychology, typography mastery, motion design, accessibility at depth
-5. **Platform Compatibility Layer** — Explicit guidance for Lovable, Claude, Replit, and any AI builder
+YUIUX is the most comprehensive UI/UX skill ever assembled for AI-powered development tools. It covers every domain of UI/UX engineering — from design tokens and typography, to accessibility, motion, authentication, AI interfaces, and platform-specific patterns.
 
 Every rule in this skill states:
 - **What** the error or pattern is
@@ -123,58 +117,55 @@ Read the file that matches what you're building. Always read this index first; r
 | 07 | `reference/07-buttons-controls.md` | Button hierarchy, all states, hit targets, toggles, sliders, checkboxes |
 | 08 | `reference/08-navigation-ia.md` | Nav patterns, breadcrumbs, tabs, sidebars, deep linking, back-button |
 | 09 | `reference/09-feedback-loading-empty-error-states.md` | Skeletons, spinners, empty states, error boundaries, optimistic UI |
-| 15 | `reference/15-notifications-alerts-modals.md` | Toasts, banners, dialogs, modal vs. sheet vs. inline, fatigue |
-| 16 | `reference/16-search-filtering.md` | Search UX, filters, facets, sort, zero-result states |
-| 17 | `reference/17-data-tables-dashboards.md` | Dense UI, tables, charts, pagination, infinite scroll, real-time |
-| 20 | `reference/20-file-upload-download.md` | Upload progress, drag-and-drop, large files, downloads |
-| 21 | `reference/21-settings-preferences.md` | Settings organization, destructive settings, defaults |
+| 11 | `reference/11-modals-dialogs-overlays.md` | Modals, drawers, popovers, tooltips, focus traps |
+| 12 | `reference/12-tables-data-display.md` | Accessible tables, sorting, selection, pagination, mobile strategies |
+| 13 | `reference/13-cards-components.md` | Card variants, grid, badge, avatar |
+| 14 | `reference/14-notifications-toasts.md` | Toast system, alert banners, notification bell |
+| 15 | `reference/15-search-filtering.md` | Search UX, filters, facets, sort, zero-result states |
+| 21 | `reference/21-data-visualization-charts.md` | Chart types, Recharts, accessible charts, tooltips |
+| 31 | `reference/31-payment-checkout-ux.md` | Cart, checkout flow, Stripe elements, trust signals |
+| 32 | `reference/32-settings-preferences.md` | Settings organization, immediate vs explicit save, danger zone |
+| 33 | `reference/33-destructive-actions-confirmation.md` | Confirm dialogs, undo patterns, type-to-confirm |
+| 34 | `reference/34-drag-drop-gestures.md` | dnd-kit, keyboard DnD, file drop zones |
+| 35 | `reference/35-infinite-scroll-pagination.md` | Virtual scroll, intersection observer, load more |
 
 ### Accessibility & Performance
 | # | File | Covers |
 |---|------|--------|
 | 10 | `reference/10-accessibility-deep-dive.md` | Keyboard, screen reader, ARIA, focus management, WCAG 2.2 |
-| 11 | `reference/11-performance-perceived-performance.md` | Core Web Vitals, lazy loading, debouncing, perceived speed |
-| 12 | `reference/12-mobile-responsive-touch.md` | Touch targets, gestures, viewport quirks, responsive failures |
+| 16 | `reference/16-responsive-design.md` | Mobile-first, fluid spacing, clamp(), images, print |
+| 17 | `reference/17-performance-web-vitals.md` | LCP, CLS, INP, code splitting, lazy loading |
+| 25 | `reference/25-mobile-first-touch.md` | Touch targets, gestures, safe areas, bottom sheet |
 
-### UX Writing & Trust
+### UX Writing & Patterns
 | # | File | Covers |
 |---|------|--------|
-| 13 | `reference/13-onboarding-first-run.md` | Empty-state onboarding, progressive disclosure, tooltips, tours |
-| 14 | `reference/14-microcopy-content-strategy.md` | Error tone, button labels, confirmation copy, placeholder text |
-| 18 | `reference/18-checkout-ecommerce.md` | Cart, checkout, pricing display, trust signals, payment errors |
-| 19 | `reference/19-auth-account-ux.md` | Sign-up, login, password reset, session expiry, permissions |
-| 22 | `reference/22-internationalization-localization.md` | RTL, text expansion, locale formatting, translation pitfalls |
-| 23 | `reference/23-privacy-consent-trust.md` | Consent banners, permission prompts, data transparency |
-| 24 | `reference/24-error-prevention-recovery.md` | Confirmation vs undo, autosave, destructive-action design |
+| 22 | `reference/22-authentication-ux.md` | Sign-up, login, password reset, MFA, session expiry |
+| 23 | `reference/23-onboarding-ux.md` | Empty-state onboarding, progressive disclosure, checklists |
+| 24 | `reference/24-dashboard-design.md` | KPI cards, date range, real-time updates, glanceability |
+| 27 | `reference/27-content-strategy-microcopy.md` | Button copy, error messages, empty states, number formatting |
+| 28 | `reference/28-user-testing-validation.md` | Usability testing, heuristic evaluation, A/B testing |
+| 30 | `reference/30-internationalization.md` | RTL, text expansion, Intl API, i18next |
+| 36 | `reference/36-ai-ui-patterns.md` | Streaming text, chat UI, AI loading states, uncertainty |
 
-### Design Systems & Brand
+### Design Systems
 | # | File | Covers |
 |---|------|--------|
-| 25 | `reference/25-design-systems-consistency.md` | Component tokens, design system discipline, visual consistency |
-| 26 | `reference/26-anti-pattern-catalog.md` | Master list: symptom → fix, every known UI/UX anti-pattern |
-| 27 | `reference/27-brand-identity.md` | Brand voice, visual identity, messaging, asset management |
-| 28 | `reference/28-design-tokens-architecture.md` | Three-layer tokens (primitive→semantic→component), CSS vars |
-| 29 | `reference/29-component-library.md` | shadcn/ui full reference, component anatomy, state specs |
-| 30 | `reference/30-logo-and-visual-identity.md` | Logo systems, 55 styles, color psychology, usage rules |
-| 31 | `reference/31-social-media-design.md` | Platform specs, art direction, social photo design |
-| 32 | `reference/32-banner-design.md` | Banner sizes, styles, ad design, web headers |
-| 33 | `reference/33-slides-presentations.md` | Slide systems, layouts, Chart.js, token-compliant decks |
-| 34 | `reference/34-corporate-identity.md` | CIP, 50+ deliverables, style guide, brand application |
-| 35 | `reference/35-shadcn-tailwind-integration.md` | Tailwind v4, shadcn/ui patterns, dark mode, responsive |
-
-### Automation & Quality
-| # | File | Covers |
-|---|------|--------|
-| 36 | `reference/36-ai-detection-automation.md` | Static analysis, runtime monitoring, ML anomaly detection, CI/CD |
-| 37 | `reference/37-testing-qa.md` | Unit, integration, E2E, a11y testing, performance budgets |
-| 38 | `reference/38-observability-analytics.md` | RUM, dashboards, session replay, UX health scores |
+| 18 | `reference/18-icons-imagery.md` | Icon systems, SVG, accessibility, OG images |
+| 19 | `reference/19-design-tokens.md` | Three-layer tokens, Tailwind config, CSS variables |
+| 20 | `reference/20-component-architecture.md` | Compound components, composition, state patterns |
+| 26 | `reference/26-design-system-foundations.md` | Token hierarchy, versioning, governance, documentation |
+| 29 | `reference/29-dark-mode-theming.md` | Class-based toggle, FOUC prevention, image adaptation |
+| 37 | `reference/37-design-handoff.md` | Figma tokens, interaction specs, redlines |
+| 38 | `reference/38-observability-analytics.md` | Sentry, PostHog, feature flags, privacy |
+| 42 | `reference/42-css-architecture.md` | CSS layers, Tailwind, CSS Modules, container queries |
 
 ### Platform Compatibility
 | # | File | Covers |
 |---|------|--------|
-| 39 | `reference/39-lovable-compatibility.md` | Lovable-specific patterns, shadcn, Framer Motion, lucide |
-| 40 | `reference/40-replit-compatibility.md` | Replit agent patterns, monorepo, API hooks, token system |
-| 41 | `reference/41-claude-compatibility.md` | Claude prompting patterns, multi-turn UI design, context rules |
+| 39 | `reference/39-lovable-compatibility.md` | shadcn/ui, Framer Motion, lucide-react, TanStack Query |
+| 40 | `reference/40-replit-compatibility.md` | Monorepo, PORT env, BASE_URL, artifact routing |
+| 41 | `reference/41-claude-compatibility.md` | Prompting patterns, trigger map, quality gates |
 
 ---
 
@@ -347,14 +338,6 @@ Before generating any UI, apply YUIUX rules:
 ```
 
 ---
-
-## Version & Changelog
-
-| Version | What Changed |
-|---------|-------------|
-| 3.0.0 | Full merge of ux-error-prevention + UI/UX AI Skill + UI/UX Pro-Max; extended to 41 reference files; platform compatibility layer added |
-| 2.x | UI/UX Pro-Max original — design system, brand, tokens, logo, CIP, social |
-| 1.x | UX Error Prevention — Apple HIG translation, 26 reference files, pre-ship gate |
 
 ---
 
